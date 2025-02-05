@@ -2,12 +2,13 @@
 
 This assignment is designed to test your Terraform and Azure knowledge in a real-world scenario.
 
-This repo contains a lightweight version of real code used to create function apps in our Azure environment. We'd like you to use your experience to refactor the code.
+This repo closely resembles a lightweight version of real code used to create function apps in our Azure environment. We'd like you to use your experience to refactor the code.
 
 The code currently has some limitations:
 
 * The function definition is a little rigid and each is created with exactly the same configuration
-* Access to Azure services e.g. Key Vault, may (or may not) be adhering to security best practice
+* Access to Azure services e.g. Key Vault, may not adhere to security best practices
+* The directory structure makes the code difficult to work on
 
 ## Objectives
 
@@ -27,7 +28,7 @@ The code currently has some limitations:
 You should consider:
 
 * How your solution scales to create _n_ functions with a variety of configuration options
-* Whether what you've built is cost-effective
+* Whether what you've built is cost-effective (The resources used here are on the free tier for the purpose of the exercise, but you should be able to articulate how you might apply the most cost-effective configurations in a production environment)
 * Reusability i.e. another team wishes to create a function, could your code be reused by other respositories?
 * Azure resource naming and tagging best practices
-* Reliability and monitoring
+* Reliability and monitoring options

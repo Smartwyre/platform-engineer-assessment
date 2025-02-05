@@ -1,4 +1,5 @@
-### create supporting resources
+data "azurerm_client_config" "current" {}
+
 resource azurerm_resource_group functions_rg {
   name = "myfunctions"
   location = "uksouth"
@@ -30,7 +31,7 @@ resource azurerm_app_configuration functions_appcfg {
 module "function_app" {
   source = "./modules/function_app"
 
-  functions                   = local.function_app_names
+  functions                   = toset(var.function_app_names)
   resource_group              = azurerm_resource_group.functions_rg
   app_config_uri              = azurerm_app_configuration.functions_appcfg.endpoint
   app_config_id               = azurerm_app_configuration.functions_appcfg.id
