@@ -1,0 +1,33 @@
+# Azure Functions Assignment
+
+This assignment is designed to test your Terraform and Azure knowledge in a real-world scenario.
+
+This repo contains a lightweight version of real code used to create function apps in our Azure environment. We'd like you to use your experience to refactor the code.
+
+The code currently has some limitations:
+
+* The function definition is a little rigid and each is created with exactly the same configuration
+* Access to Azure services e.g. Key Vault, may (or may not) be adhering to security best practice
+
+## Objectives
+
+* Add a new function called `products-denormalizations`
+* Add the ability to specify custom configuration per function e.g. scaling settings
+* Use your experience to make changes that would optimise cost, and improve security
+* Update the readme to include:
+    * A description of the changes made, and the rationale behind them
+    * Any future enhancements outside of the scope of this exercise that you might make
+
+### Extra credit
+* An explanation of how you might test your infrastructure prior to deployment
+* A simple github actions YAML file that will deploy the solution to Azure
+
+## Considerations
+
+You should consider:
+
+* How your solution scales to create _n_ functions with a variety of configuration options
+* Whether what you've built is cost-effective
+* Reusability i.e. another team wishes to create a function, could your code be reused by other respositories?
+* Azure resource naming and tagging best practices
+* Reliability and monitoring
