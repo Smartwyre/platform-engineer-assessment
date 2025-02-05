@@ -32,3 +32,7 @@ You should consider:
 * Reusability i.e. another team wishes to create a function, could your code be reused by other respositories?
 * Azure resource naming and tagging best practices
 * Reliability and monitoring options
+
+## Submission
+
+To submit your solution you can either fork this repo, or commit the code to your own public repo.
