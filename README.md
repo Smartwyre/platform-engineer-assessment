@@ -35,4 +35,7 @@ You should consider:
 
 ## Submission
 
-To submit your solution you can either fork this repo, or commit the code to your own public repo.
+To submit your solution:
+* Clone this repo
+* Commit your finished solution to your own repo
+* Grant `scollins-smartwyre`, `andysbolton` and `scooney-smartwyre` access to your clone your repo for review
