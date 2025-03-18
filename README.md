@@ -38,4 +38,4 @@ You should consider:
 To submit your solution:
 * Clone this repo
 * Commit your finished solution to your own repo
-* Grant `scollins-smartwyre`, `andysbolton` and `scooney-smartwyre` access to your clone your repo for review
+* Grant `scottc-smartwyre`, `andysbolton` and `scooney-smartwyre` access to your clone your repo for review
