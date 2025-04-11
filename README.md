@@ -18,8 +18,6 @@ The code currently has some limitations:
 * Update the readme to include:
     * A description of the changes made, and the rationale behind them
     * Any future enhancements outside of the scope of this exercise that you might make
-
-### Extra credit
 * An explanation of how you might test your infrastructure prior to deployment
 * A simple github actions YAML file that will deploy the solution to Azure
 
@@ -38,4 +36,4 @@ You should consider:
 To submit your solution:
 * Clone this repo
 * Commit your finished solution to your own repo
-* Grant `scottc-smartwyre`, `andysbolton` and `scooney-smartwyre` access to your clone your repo for review
+* Grant `andysbolton` and `scooney-smartwyre` access to your clone your repo for review
