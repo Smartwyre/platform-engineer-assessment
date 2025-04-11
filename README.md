@@ -18,8 +18,6 @@ The code currently has some limitations:
 * Update the readme to include:
     * A description of the changes made, and the rationale behind them
     * Any future enhancements outside of the scope of this exercise that you might make
-
-### Extra credit
 * An explanation of how you might test your infrastructure prior to deployment
 * A simple github actions YAML file that will deploy the solution to Azure
 
